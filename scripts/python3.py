@@ -10,6 +10,9 @@ import collections
 """
 Notes:
 
+print() is sent to stdout, while error text like unhandled exception text is sent to stderr; and can
+be redirected/sorted by the standard shell tricks.
+
 Exit Codes -  Any unhandled exception will result in a non-zero exit code.
 
 References:
